@@ -4,7 +4,7 @@ This is a tutorial of utilizing the [reveal.js framework](https://revealjs.com/)
 
 - Workflow: Edit the slides in markdwon → convert to HTML slides.
 
-🖥 An HTML slides example is demonstrated [here](https://www.haochehsu.com/slides/revealJS/index.html)
+🔖 An example is demonstrated [here](https://www.haochehsu.com/slides/revealJS/index.html). It's markdown file is [here](https://github.com/howardhsumail/revealJS-Tutorial/tree/main/Example).
 
 ### Installation
 
