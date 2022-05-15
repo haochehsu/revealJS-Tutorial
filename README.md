@@ -4,7 +4,7 @@ This is a tutorial of utilizing the [reveal.js framework](https://revealjs.com/)
 
 - Workflow: Edit the slides in markdwon → convert to HTML slides.
 
-🔖 An example is demonstrated [here](https://www.haochehsu.com/slides/revealJS/index.html). It's markdown file is [here](https://github.com/howardhsumail/revealJS-Tutorial/tree/main/Example).
+🔖 An example is demonstrated [here](https://www.haochehsu.com/slides/revealJS/index.html). It's markdown file is [here](https://github.com/howardhsumail/revealJS-Tutorial/blob/main/Example/example.md?plain=1).
 
 ### Installation
 
@@ -61,8 +61,10 @@ In your working directory, there are 2 files: `markdownSlides.md` and `reveal.js
 
 #### `reveal.json`
 
-This is the configuration file. You can specify the `margin`, 4 different slide page indicator (more [options](https://revealjs.com/slide-numbers/)), toggle the visibility of the controler and the bottom presentation progress bar, the `width`, and the `height`.
+This is the configuration file. You can specify the `margin`, 4 different slide page indicators (more [options](https://revealjs.com/slide-numbers/)), toggle the visibility of the controler and the bottom progress bar, the `width`, and the `height`.
 
 #### `markdownSlides.md`
 
-This is the sildes written in markdown with HTML formatting. At the top, you can define the `Title` of the HTML page, background theme (more [options](https://revealjs.com/themes/)), global slide transitions (more [options](https://revealjs.com/transitions/)), horizontal slides seperator (`---`), and vertical slides seperator (`-v-`).
+This is the sildes written in markdown ([syntax](https://www.markdownguide.org/basic-syntax/)) with HTML ([syntax](https://www.w3schools.com/html/html5_syntax.asp)) formatting. At the top, you can define the `Title` of the HTML page, background theme (more [options](https://revealjs.com/themes/)), global slide transitions (more [options](https://revealjs.com/transitions/)), horizontal slides seperator (`---`), and vertical slides seperator (`-v-`). For syntax usage, please refer to the [example](https://github.com/howardhsumail/revealJS-Tutorial/blob/main/Example/example.md?plain=1).
+
+
