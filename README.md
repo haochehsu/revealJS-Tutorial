@@ -51,7 +51,7 @@ The terminal will return the following message: `Reveal-server started at http:/
 
 ### Controls
 
-To control the presentation, press `Shift` + `?` to see the keyboard shortcuts. This includes Speaker notes view (`S`), First slide (`Shift` + `←`), Last slide (`Shift` + `→`), Overview (`ESC`), Fullscreen (`F`), and Pause ('B').
+To control the presentation, press `Shift` + `?` to see the keyboard shortcuts. This includes Speaker notes view (`S`), First slide (`Shift` + `←`), Last slide (`Shift` + `→`), Overview (`ESC`), Fullscreen (`F`), and Pause (`B`).
 
 ---
 
