@@ -4,6 +4,8 @@ This is a tutorial of utilizing the [reveal.js framework](https://revealjs.com/)
 
 - Workflow: Edit the slides in markdwon → convert to HTML slides.
 
+🖥 An HTML slides example is demonstrated [here](https://www.haochehsu.com/slides/revealJS/index.html)
+
 ### Installation
 
 1. Install Node Version Manager (`nvm`)
