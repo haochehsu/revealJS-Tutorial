@@ -30,3 +30,19 @@ nvm install v15
 ```shell
 npm install -g reveal-md
 ```
+
+### Usage
+
+- Make HTML slides
+
+```shell
+reveal-md yourSlides.md --static outputFolderName
+```
+
+- Live view the slides
+
+```shell
+reveal-md yourSlides.md -w
+```
+
+ The terminal will retruns the following message: `Reveal-server started at http://localhost:xxxx`. If the browser does not pop up, paste `http://localhost:xxxx` into the browser to start live editing.
