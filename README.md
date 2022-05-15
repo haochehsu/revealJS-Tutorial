@@ -65,7 +65,7 @@ This is the configuration file. You can specify the `margin`, 4 different slide 
 
 #### `markdownSlides.md`
 
-This is the sildes written in markdown ([syntax](https://www.markdownguide.org/basic-syntax/)) with HTML ([syntax](https://www.w3schools.com/html/html5_syntax.asp)) formatting. At the top, you can define the `Title` of the HTML page, background theme (more [options](https://revealjs.com/themes/)), global slide transitions (more [options](https://revealjs.com/transitions/)), horizontal slides seperator (`---`), and vertical slides seperator (`-v-`). For syntax usage, please refer to the [example](https://github.com/howardhsumail/revealJS-Tutorial/blob/main/Example/example.md?plain=1).
+This is the sildes written in markdown ([syntax](https://www.markdownguide.org/basic-syntax/)) with HTML ([syntax](https://www.w3schools.com/html/html5_syntax.asp)) formatting. At the top, you can define the `Title` of the HTML page, background theme (more [options](https://revealjs.com/themes/)), global slide transitions (more [options](https://revealjs.com/transitions/)), horizontal slides seperator (`---`), and vertical slides seperator (`-v-`). For syntax[^1], please refer to the [example](https://github.com/howardhsumail/revealJS-Tutorial/blob/main/Example/example.md?plain=1).
 
 ###  Design
 
@@ -130,3 +130,5 @@ If you find the default font size is too large or the baseline skip is too small
  some contents
 </div>
 ```
+
+[^1]: More markdwon syntax examples can be found [here](https://github.com/humrochagf/revelation/blob/main/example_slides/slides.md?plain=1).
