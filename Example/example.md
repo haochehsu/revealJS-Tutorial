@@ -43,7 +43,7 @@ Note: speaker note for page 1
 ---
 
 <!-- .slide: data-transition="concave" -->
-Nevigate with the <span style="color:green;">4-directional controler</span> on the bottom right corner
+Nevigate with the <span style="color:green;">4-directional controller</span> on the bottom right corner
 
 or use the keyboard <span style="color:green;">4 arrow keys</span>.
 
@@ -78,7 +78,7 @@ Focuses on industries in our Economy:<br><br>
 
 1. Build a theoretical model of market participants
 2. Use industry data to estimate the parameters
-3. Use estimates to conduct conterfactual evaluations
+3. Use estimates to conduct counterfactual evaluations
 
 </div>
 
@@ -94,7 +94,7 @@ Focuses on industries in our Economy:<br><br>
 
 - Learn about the industry e.g. from news, industry sources
 
-- Collect data trying to understand key facts, aspects of the industry and firm behavior
+- Collect data trying to understand key facts, aspects of the industry, and firm behavior
 
 <div style="margin-bottom:1cm;"></div>
 
@@ -153,7 +153,7 @@ In our data...
     - Look at quasi-random mergers. e.g. exploiting court rulings, search for merger news, and estimate the treatment effect of mergers from historical data.
 
 - **Structural** researcher:
-    - Build a model of national mobile telecom market, estimate features of demand and costs. Then evaluate the counterfactual where Verizon and AT&T merge.
+    - Build a model of the national mobile telecom market, and estimate features of demand and costs. Then evaluate the counterfactual where Verizon and AT&T merge.
 </div>
 
 ---
