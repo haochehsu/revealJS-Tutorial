@@ -55,7 +55,7 @@ reveal-md yourSlides.md -w
 
 Most of the time, we need to rely on HTML + CSS code to control the style and the animation of the slides, so [VS Code](https://code.visualstudio.com/) is the recommanded editor. For plain markdwon file, [Typora](https://typora.io/) is recommanded.
 
-### Slides Design
+### Slides
 
 In your working directory, there are 2 files: `markdownSlides.md` and `reveal.json`.
 
@@ -67,4 +67,66 @@ This is the configuration file. You can specify the `margin`, 4 different slide 
 
 This is the sildes written in markdown ([syntax](https://www.markdownguide.org/basic-syntax/)) with HTML ([syntax](https://www.w3schools.com/html/html5_syntax.asp)) formatting. At the top, you can define the `Title` of the HTML page, background theme (more [options](https://revealjs.com/themes/)), global slide transitions (more [options](https://revealjs.com/transitions/)), horizontal slides seperator (`---`), and vertical slides seperator (`-v-`). For syntax usage, please refer to the [example](https://github.com/howardhsumail/revealJS-Tutorial/blob/main/Example/example.md?plain=1).
 
+###  Design
 
+In this section, we will go through some common designs. 
+
+#### Fragment
+
+Control each element seperately (e.g. display list items sequentially). The declaration is added to the end of each element with `x` being the order:
+
+```md
+<!-- .element: class="fragment data-fragment-index="x" -->
+```
+
+Animation can be added to the element by using the following comment:
+
+```md
+<!-- .element: class="fragment animationName" -->
+```
+The `animationName` can be replaced by one of the 17 [effects](https://revealjs.com/fragments/).
+
+#### Transition
+
+The transition between slides in controlled by the following comment:
+
+```md
+<!-- .slide: data-transition="transitionName" -->
+```
+The `transitionName` can be replaced by the 6 different [effects](https://revealjs.com/transitions/).
+
+#### Adding vertical spaces
+
+```html
+<div style="margin-bottom:1cm;"></div>
+```
+
+#### Content alignment
+
+```html
+<div style="text-align: left;">
+ The contents here including text, images,... will align to left.
+</div>
+```
+More alignment properties can be found [here](https://www.w3schools.com/cssref/pr_text_text-align.ASP).
+
+#### Padding
+
+To re-position, for example, a left-aligned paragraph, we can add paddings:
+
+```html
+<div style="padding-left:5cm;">
+ Something or another <div></div>
+</div>
+```
+Then the included contents will be shifted to the right by 5cm.
+
+#### Font size and line height
+
+If you find the default font size is too large or the baseline skip is too small, we can adjust it by the following:
+
+```html
+<div style="font-size:25pt; line-height:70px">
+ some contents
+</div>
+```
