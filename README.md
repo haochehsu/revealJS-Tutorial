@@ -54,3 +54,15 @@ reveal-md yourSlides.md -w
 ### Markdown
 
 Most of the time, we need to rely on HTML + CSS code to control the style and the animation of the slides, so [VS Code](https://code.visualstudio.com/) is the recommanded editor. For plain markdwon file, [Typora](https://typora.io/) is recommanded.
+
+### Slides Design
+
+In your working directory, there are 2 files: `markdownSlides.md` and `reveal.json`.
+
+#### `reveal.json`
+
+This is the configuration file. You can specify the `margin`, 4 different slide page indicator (more [options](https://revealjs.com/slide-numbers/)), toggle the visibility of the controler and the bottom presentation progress bar, the `width`, and the `height`.
+
+#### `markdownSlides.md`
+
+This is the sildes written in markdown with HTML formatting. At the top, you can define the `Title` of the HTML page, background theme (more [options](https://revealjs.com/themes/)), global slide transitions (more [options](https://revealjs.com/transitions/)), horizontal slides seperator (`---`), and vertical slides seperator (`-v-`).
