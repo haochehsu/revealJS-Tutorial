@@ -65,7 +65,7 @@ In your working directory, there are 2 files: `markdownSlides.md` and `reveal.js
 
 #### 1. `reveal.json`
 
-This is the configuration file. You can specify the `margin`, 4 different slide page indicators (more [options](https://revealjs.com/slide-numbers/)), toggle the visibility of the controller and the bottom progress bar, the `width`, and the `height`.
+This is the configuration file. You can specify the `margin`, 4 different page indicators (more [options](https://revealjs.com/slide-numbers/)), toggle the visibility of the controller and the bottom progress bar, the `width`, and the `height`.
 
 #### 2. `markdownSlides.md`
 
