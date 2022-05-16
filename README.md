@@ -63,11 +63,11 @@ Most of the time, we need to rely on HTML + CSS code to control the style and th
 
 In your working directory, there are 2 files: `markdownSlides.md` and `reveal.json`.
 
-#### `reveal.json`
+#### 1. `reveal.json`
 
 This is the configuration file. You can specify the `margin`, 4 different slide page indicators (more [options](https://revealjs.com/slide-numbers/)), toggle the visibility of the controller and the bottom progress bar, the `width`, and the `height`.
 
-#### `markdownSlides.md`
+#### 2. `markdownSlides.md`
 
 This is the slides written in markdown ([syntax](https://www.markdownguide.org/basic-syntax/)) with HTML ([syntax](https://www.w3schools.com/html/html5_syntax.asp)) formatting. At the top, you can define the `Title` of the HTML page, background theme (more [options](https://revealjs.com/themes/)), global slide transitions (more [options](https://revealjs.com/transitions/)), horizontal slides separator (`---`), and vertical slides separator (`-v-`). To add speaker view notes, use `Note:` in each slide. For syntax[^1], please refer to the [example](https://github.com/howardhsumail/revealJS-Tutorial/blob/main/Example/example.md?plain=1).
 
