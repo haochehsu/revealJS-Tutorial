@@ -69,7 +69,7 @@ This is the configuration file. You can specify the `margin`, 4 different page i
 
 #### 2. `markdownSlides.md`
 
-This is the slides written in markdown ([syntax](https://www.markdownguide.org/basic-syntax/)) with HTML ([syntax](https://www.w3schools.com/html/html5_syntax.asp)) formatting. At the top, you can define the `Title` of the HTML page, background theme (more [options](https://revealjs.com/themes/)), global slide transitions (more [options](https://revealjs.com/transitions/)), horizontal slides separator (`---`), and vertical slides separator (`-v-`). To add speaker view notes, use `Note:` in each slide. For syntax[^1], please refer to the [example](https://github.com/howardhsumail/revealJS-Tutorial/blob/main/Example/example.md?plain=1).
+Slides are written in markdown ([syntax](https://www.markdownguide.org/basic-syntax/)) with HTML ([syntax](https://www.w3schools.com/html/html5_syntax.asp)) formatting. At the top, you can define the `Title` of the HTML page, background theme (more [options](https://revealjs.com/themes/)), global slide transitions (more [options](https://revealjs.com/transitions/)), horizontal slides separator (`---`), and vertical slides separator (`-v-`). To add speaker view notes, use `Note:` in each slide. For syntax[^1], please refer to the [example](https://github.com/howardhsumail/revealJS-Tutorial/blob/main/Example/example.md?plain=1).
 
 ---
 
