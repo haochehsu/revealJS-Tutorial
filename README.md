@@ -39,7 +39,7 @@ npm install -g reveal-md
 reveal-md yourSlides.md --static outputFolderName
 ```
 
-Drag the markdown (`.md`) file into the Terminal to obtain the file path. To convert the example file, [download](https://github.com/howardhsumail/revealJS-Tutorial/archive/refs/heads/main.zip) and unzip the repository. Then direct the workspace to the `Example` folder `cd <path to Example folder>`. The sample HTML slides (`index.html` in the `Output` folder) can be converted by the command `reveal-md example.md --static output`.
+Drag the markdown (`.md`) file into the Terminal to obtain the file path. To convert the example file, [download](https://github.com/howardhsumail/revealJS-Tutorial/archive/refs/heads/main.zip) and unzip the repository. Then direct the workspace to the `Example` folder: `cd <path to Example folder>`. The sample HTML slides (`index.html` in the `Output` folder) can be obtained by `reveal-md example.md --static output`.
 
 - Live view the slides
 
