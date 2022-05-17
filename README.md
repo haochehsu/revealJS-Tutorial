@@ -2,7 +2,9 @@
 
 This is a tutorial on utilizing the [reveal.js framework](https://revealjs.com/) with [markdown](https://www.markdownguide.org/) by using the [reveal-md](https://github.com/webpro/reveal-md) tool. Comparing to [Beamer](https://www.overleaf.com/learn/latex/Beamer) which creates PDF slides with `TeX`, `reveal.js` creates browser-based slides (convertible to PDF) with Javascript + HTML + CSS. A comparison between the two tools is [here](https://www.maths.dur.ac.uk/users/s.m.fearn/blog/2020/revealjs/). The workflow can be summarized: Edit the slides in markdown → convert to HTML slides.
 
-🚀 An example is demonstrated [here](https://www.haochehsu.com/slides/revealJS/index.html). Its markdown file is [here](https://github.com/howardhsumail/revealJS-Tutorial/blob/main/Example/example.md?plain=1).
+🚀 The template can be viewd [here](https://www.haochehsu.com/slides/template/index.html). The tempalte markdown file is [here](https://github.com/howardhsumail/revealJS-Tutorial/blob/main/Template/template.md?plain=1)).
+
+🚀 An presentation example is demonstrated [here](https://www.haochehsu.com/slides/revealJS/index.html). Its markdown file is [here](https://github.com/howardhsumail/revealJS-Tutorial/blob/main/Example/example.md?plain=1).
 
 ### Installation
 
@@ -39,7 +41,7 @@ npm install -g reveal-md
 reveal-md yourSlides.md --static outputFolderName
 ```
 
-Drag the markdown (`.md`) file into the Terminal to obtain the file path. To convert the example file, [download](https://github.com/howardhsumail/revealJS-Tutorial/archive/refs/heads/main.zip) and unzip the repository. Then direct the workspace to the `Example` folder: `cd <path to Example folder>`. The sample HTML slides (`index.html` in the `Output` folder) can be obtained by `reveal-md example.md --static output`.
+Drag the markdown (`.md`) file into the Terminal to obtain the file path. To convert the markdown template to HTML slides, [download](https://github.com/howardhsumail/revealJS-Tutorial/archive/refs/heads/main.zip) and unzip the repository. Then direct the workspace to the `Template` sub-folder: `cd <path to Template folder>`. The the slides (`index.html` in the `Output` folder) can be obtained by `reveal-md template.md --static output`.
 
 - Live view the slides
 
