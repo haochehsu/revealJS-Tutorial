@@ -103,7 +103,7 @@ Focuses on industries in our Economy:<br><br>
 
 ## 3 steps of Structure Modeling Process <br><br>
 
-[Step 1](#/5/1) &nbsp; | &nbsp; [Step 2](#/5/2) &nbsp; | &nbsp; [Step 3](#/5/3)
+[Step 1](#/7/1) &nbsp; | &nbsp; [Step 2](#/7/2) &nbsp; | &nbsp; [Step 3](#/7/3)
 
 -v-
 
@@ -115,7 +115,7 @@ Focuses on industries in our Economy:<br><br>
 
 <div style="margin-bottom:1cm;"></div>
 
-<small>[Go back](#/5)<small>
+<small>[Go back](#/7)<small>
 
 -v-
 
@@ -133,7 +133,7 @@ In our data...
 
 <div style="margin-bottom:1cm;"></div>
 
-<small>[Go back](#/5)<small>
+<small>[Go back](#/7)<small>
 
 -v-
 
@@ -154,7 +154,7 @@ In our data...
 
 <div style="margin-bottom:1cm;"></div>
 
-<small>[Go back](#/5)<small>
+<small>[Go back](#/7)<small>
 
 ---
 
