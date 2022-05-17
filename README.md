@@ -2,7 +2,7 @@
 
 This is a tutorial on utilizing the [reveal.js framework](https://revealjs.com/) with [markdown](https://www.markdownguide.org/) by using the [reveal-md](https://github.com/webpro/reveal-md) tool. Comparing to [Beamer](https://www.overleaf.com/learn/latex/Beamer) which creates PDF slides with `TeX`, `reveal.js` creates browser-based slides (convertible to PDF) with Javascript + HTML + CSS. A comparison between the two tools is [here](https://www.maths.dur.ac.uk/users/s.m.fearn/blog/2020/revealjs/). The workflow can be summarized: Edit the slides in markdown → convert to HTML slides.
 
-🚀 Template can be viewd [here](https://www.haochehsu.com/slides/template/index.html). The tempalte markdown file is [here](https://github.com/howardhsumail/revealJS-Tutorial/blob/main/Template/template.md?plain=1).
+🚀 Template can be viewd [here](https://www.haochehsu.com/slides/template/index.html). The template markdown file is [here](https://github.com/howardhsumail/revealJS-Tutorial/blob/main/Template/template.md?plain=1).
 
 🚀 Presentation example is demonstrated [here](https://www.haochehsu.com/slides/revealJS/index.html). The example markdown file is [here](https://github.com/howardhsumail/revealJS-Tutorial/blob/main/Example/example.md?plain=1).
 
