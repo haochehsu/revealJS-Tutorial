@@ -4,7 +4,7 @@ This is a tutorial on utilizing the [reveal.js framework](https://revealjs.com/)
 
 🚀 The template can be viewd [here](https://www.haochehsu.com/slides/template/index.html). The tempalte markdown file is [here](https://github.com/howardhsumail/revealJS-Tutorial/blob/main/Template/template.md?plain=1).
 
-🚀 An presentation example is demonstrated [here](https://www.haochehsu.com/slides/revealJS/index.html). Its markdown file is [here](https://github.com/howardhsumail/revealJS-Tutorial/blob/main/Example/example.md?plain=1).
+🚀 An presentation example is demonstrated [here](https://www.haochehsu.com/slides/revealJS/index.html). The example markdown file is [here](https://github.com/howardhsumail/revealJS-Tutorial/blob/main/Example/example.md?plain=1).
 
 ### Installation
 
