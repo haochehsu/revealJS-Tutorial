@@ -28,7 +28,7 @@ Note: put speaker notes for this slide here.
 
 <div class="content">
 
-- [Markdown source code of this template]()
+- [Markdown source code of this template](https://github.com/howardhsumail/revealJS-Tutorial/blob/main/Template/template.md?plain=1)
 - [revealJS-Tutorial Github Repository](https://github.com/howardhsumail/revealJS-Tutorial.git)
 - [Economics Presentation Example](https://www.haochehsu.com/slides/revealJS/index.html)
 - Please [contact](mailto:howardhsumail@gmail.com) the [author](https://www.haochehsu.com/) for help, comments, bug reporting.

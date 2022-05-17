@@ -20,6 +20,23 @@ Note: speaker note for page 1
 
 ---
 
+## About this presentation example
+
+<div class="content">
+
+- [Markdown source code of this template](https://github.com/howardhsumail/revealJS-Tutorial/blob/main/Example/example.md?plain=1)
+- [revealJS-Tutorial Github Repository](https://github.com/howardhsumail/revealJS-Tutorial.git)
+- [Template](https://www.haochehsu.com/slides/template/index.html)
+- Please [contact](mailto:howardhsumail@gmail.com) the [author](https://www.haochehsu.com/) for help, comments, bug reporting.
+
+</div>
+
+Note: put speaker notes for this slide here.
+
+---
+
+---
+
 <h3>This is...</h3>
 
 <div class="r-stack">
@@ -61,9 +78,9 @@ Focuses on industries in our Economy:<br><br>
 
 <div style="line-height:80px">
 
-* Structure <!-- .element: class="fragment data-fragment-index="1" -->
-* Firms behavior <!-- .element: class="fragment data-fragment-index="2" -->
-* Individuals <!-- .element: class="fragment data-fragment-index="3" -->
+* Structure <!-- .element: class="fragment" data-fragment-index="1" -->
+* Firms behavior <!-- .element: class="fragment" data-fragment-index="2" -->
+* Individuals <!-- .element: class="fragment" data-fragment-index="3" -->
 
 </div>
 </div>
@@ -247,3 +264,6 @@ $$\begin{align}
 <script>
   Reveal.initialize({ plugins: [ RevealMath.KaTeX ] });
 </script>
+
+<!-- CSS -->
+<base target="_blank"/>
