@@ -8,13 +8,13 @@ This is a tutorial on utilizing the [reveal.js framework](https://revealjs.com/)
 
 ### Installation
 
-1. Install Node Version Manager (`nvm`)
+1. Install Node Version Manager (nvm)
 
 ```shell
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
 ```
 
-2. Loads `nvm`
+2. Load nvm
 
 ```shell
 export NVM_DIR="$HOME/.nvm"
