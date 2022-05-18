@@ -1,10 +1,10 @@
 # Reveal.js Tutorial
 
-This is a tutorial on utilizing the [reveal.js framework](https://revealjs.com/) with [markdown](https://www.markdownguide.org/) by using the [reveal-md](https://github.com/webpro/reveal-md) tool. Comparing to [Beamer](https://www.overleaf.com/learn/latex/Beamer) which creates PDF slides with `TeX`, `reveal.js` creates web-based slides (convertible to PDF) with Javascript + HTML + CSS. A comparison between the two tools is [here](https://www.maths.dur.ac.uk/users/s.m.fearn/blog/2020/revealjs/). The workflow can be summarized as: Edit the slides in markdown → convert to HTML slides.
+This is a tutorial on utilizing the [reveal.js framework](https://revealjs.com/) with [markdown](https://www.markdownguide.org/) by using the [reveal-md](https://github.com/webpro/reveal-md) tool. Comparing to [Beamer](https://www.overleaf.com/learn/latex/Beamer) which creates PDF slides with `TeX`, `reveal.js` creates web-based slides (convertible to PDF) with Javascript + HTML + CSS. A comparison between the two is [here](https://www.maths.dur.ac.uk/users/s.m.fearn/blog/2020/revealjs/). So the workflow can be summarized as: edit markdown slides → convert to HTML slides.
 
-🚀 Template can be viewd [here](https://www.haochehsu.com/slides/template/index.html). The template markdown file is [here](https://github.com/howardhsumail/revealJS-Tutorial/blob/main/Template/template.md?plain=1).
+🚀 Template is [here](https://www.haochehsu.com/slides/template/index.html). The template markdown file is [here](https://github.com/howardhsumail/revealJS-Tutorial/blob/main/Template/template.md?plain=1).
 
-🚀 Presentation example is demonstrated [here](https://www.haochehsu.com/slides/revealJS/index.html). The example markdown file is [here](https://github.com/howardhsumail/revealJS-Tutorial/blob/main/Example/example.md?plain=1).
+🚀 Presentation example [demonstration](https://www.haochehsu.com/slides/revealJS/index.html). The example markdown file is [here](https://github.com/howardhsumail/revealJS-Tutorial/blob/main/Example/example.md?plain=1).
 
 ### Installation
 
@@ -35,31 +35,31 @@ npm install -g reveal-md
 
 ### Usage
 
-- Make HTML slides
+#### Render HTML slides
 
 ```shell
 reveal-md yourSlides.md --static outputFolderName
 ```
 
-Drag the markdown (`.md`) file into the Terminal to obtain the file path. To convert the markdown template to HTML slides, [download](https://github.com/howardhsumail/revealJS-Tutorial/archive/refs/heads/main.zip) and unzip the repository. Then direct the workspace to the `Template` sub-folder: `cd <path to Template folder>`. The the slides (`index.html` in the `Output` folder) can be obtained by `reveal-md template.md --static output`.
+Drag the markdown (`.md`) file into Terminal to obtain file path. To convert the markdown template to HTML slides, [download](https://github.com/howardhsumail/revealJS-Tutorial/archive/refs/heads/main.zip) and unzip the repository. Then direct the workspace to the `Template` sub-folder: `cd <path to Template folder>`. Then the slides (`index.html` in the output folder) can be rendered by `reveal-md template.md --static output`.
 
-- Live view the slides
+#### Live view editing
 
 ```shell
 reveal-md yourSlides.md -w
 ```
 
-The terminal will return the following message: `Reveal-server started at http://localhost:xxxx`. If the browser does not pop up, paste `http://localhost:xxxx` into the browser to start live editing.
+The terminal will return the following message: `Reveal-server started at http://localhost:xxxx`. If the browser does not pop up, paste `http://localhost:xxxx` into the browser to initiate live view.
 
 ### Controls
 
-To control the presentation, press `Shift` + `?` to see the keyboard shortcuts. This includes Speaker notes view (`S`), First slide (`Shift` + `←`), Last slide (`Shift` + `→`), Overview (`ESC`), Fullscreen (`F`), and Pause (`B`).
+To control the presentation, press `Shift` + `?` to see keyboard shortcuts. This includes Speaker notes view (`S`), First slide (`Shift` + `←`), Last slide (`Shift` + `→`), Overview (`ESC`), Fullscreen (`F`), and Pause (`B`).
+
+### Markdown editor
+
+We rely on HTML + CSS to control the style and the animations, so [VS Code](https://code.visualstudio.com/) is recommended. For plain markdown files, [Typora](https://typora.io/) is recommended.
 
 ---
-
-### Markdown
-
-Most of the time, we need to rely on HTML + CSS code to control the style and the animation of the slides, so [VS Code](https://code.visualstudio.com/) is the recommended editor. For plain markdown files, [Typora](https://typora.io/) is recommended.
 
 ### Slides
 
@@ -71,7 +71,7 @@ This is the configuration file. You can specify the `margin`, 4 different page i
 
 #### 2. `markdownSlides.md`
 
-Slides are written in markdown ([syntax](https://www.markdownguide.org/basic-syntax/)) with HTML ([syntax](https://www.w3schools.com/html/html5_syntax.asp)) formatting. At the top, you can define the `Title` of the HTML page, background theme (more [options](https://revealjs.com/themes/)), global slide transitions (more [options](https://revealjs.com/transitions/)), horizontal slides separator (`---`), and vertical slides separator (`-v-`). To add speaker view notes, use `Note:` in each slide. For syntax, please refer to the [template](https://github.com/howardhsumail/revealJS-Tutorial/blob/main/Template/template.md?plain=1).
+Slides are written in markdown ([syntax](https://www.markdownguide.org/basic-syntax/)) with HTML ([syntax](https://www.w3schools.com/html/html5_syntax.asp)) formatting. At the top, you can define the `Title` of the HTML page, background theme (more [options](https://revealjs.com/themes/)), slides transition (more [options](https://revealjs.com/transitions/)), horizontal slides separator (`---`), and vertical slides separator (`-v-`). To add speaker view notes, use the `Note:` in each slide. Please refer to the [template](https://github.com/howardhsumail/revealJS-Tutorial/blob/main/Template/template.md?plain=1) for additional syntax.
 
 ---
 
@@ -81,10 +81,10 @@ In this section, we will go through some common designs.
 
 #### Fragment
 
-Control each element separately (e.g. display list items sequentially). The declaration is added to the end of each element with `x` being the order:
+Control each element separately (e.g. display list items sequentially). The declaration is added to each element with `x` being the order:
 
 ```md
-<!-- .element: class="fragment data-fragment-index="x" -->
+<!-- .element: class="fragment" data-fragment-index="x" -->
 ```
 
 Animation can be added to the element by using the following comment:
@@ -101,7 +101,7 @@ The transition between slides in controlled by the following comment:
 ```md
 <!-- .slide: data-transition="transitionName" -->
 ```
-The `transitionName` can be replaced by the 6 different [effects](https://revealjs.com/transitions/).
+The `transitionName` can be replaced by 6 different [effects](https://revealjs.com/transitions/).
 
 #### Adding vertical spaces
 
@@ -131,7 +131,7 @@ Then the included contents will be shifted to the right by 5cm.
 
 #### Font size and line height
 
-If you find the default font size is too large or the baseline skip is too small, we can adjust it by the following:
+If you find the default font size is too large or the baseline skip is too small, it can be adjusted by the following:
 
 ```html
 <div style="font-size:25pt; line-height:70px">
