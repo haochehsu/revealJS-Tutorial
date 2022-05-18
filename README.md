@@ -79,7 +79,7 @@ Slides are written in markdown ([syntax](https://www.markdownguide.org/basic-syn
 
 In this section, we will go through some common designs. 
 
-#### Fragment
+#### 1. Fragment
 
 Control each element separately (e.g. display list items sequentially). The declaration is added to each element with `x` being the order:
 
@@ -94,7 +94,7 @@ Animation can be added to the element by using the following comment:
 ```
 The `animationName` can be replaced by one of the 17 [effects](https://revealjs.com/fragments/).
 
-#### Transition
+#### 2. Transition
 
 The transition between slides in controlled by the following comment:
 
@@ -103,13 +103,13 @@ The transition between slides in controlled by the following comment:
 ```
 The `transitionName` can be replaced by 6 different [effects](https://revealjs.com/transitions/).
 
-#### Adding vertical spaces
+#### 3. Vertical spacing
 
 ```html
 <div style="margin-bottom:1cm;"></div>
 ```
 
-#### Content alignment
+#### 4. Alignment
 
 ```html
 <div style="text-align: left;">
@@ -118,7 +118,7 @@ The `transitionName` can be replaced by 6 different [effects](https://revealjs.c
 ```
 More alignment properties can be found [here](https://www.w3schools.com/cssref/pr_text_text-align.ASP).
 
-#### Padding
+#### 5. Padding
 
 To re-position, for example, a left-aligned paragraph, we can add paddings:
 
@@ -129,7 +129,7 @@ To re-position, for example, a left-aligned paragraph, we can add paddings:
 ```
 Then the included contents will be shifted to the right by 5cm.
 
-#### Font size and line height
+#### 6. Font size and line height
 
 If you find the default font size is too large or the baseline skip is too small, it can be adjusted by the following:
 
