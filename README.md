@@ -51,7 +51,7 @@ reveal-md yourSlides.md -w
 
 The terminal will return the following message: `Reveal-server started at http://localhost:xxxx`. If the browser does not pop up, paste `http://localhost:xxxx` into the browser to initiate live view.
 
-### Controls
+### Shortcuts
 
 To control the presentation, press `Shift` + `?` to see keyboard shortcuts. This includes Speaker notes view (`S`), First slide (`Shift` + `←`), Last slide (`Shift` + `→`), Overview (`ESC`), Fullscreen (`F`), and Pause (`B`).
 
