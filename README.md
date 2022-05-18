@@ -67,11 +67,11 @@ In your working directory, there are 2 files: `markdownSlides.md` and `reveal.js
 
 #### 1. `reveal.json`
 
-This is the configuration file. You can specify the `margin`, 4 different page indicators (more [options](https://revealjs.com/slide-numbers/)), toggle the visibility of the controller and the bottom progress bar, the `width`, and the `height`.
+This is the configuration file. You can specify the `margin`, 4 different page indicators ([options](https://revealjs.com/slide-numbers/)), toggle the visibility of the controller and the bottom progress bar, the `width`, and the `height`.
 
 #### 2. `markdownSlides.md`
 
-Slides are written in markdown ([syntax](https://www.markdownguide.org/basic-syntax/)) with HTML ([syntax](https://www.w3schools.com/html/html5_syntax.asp)) formatting. At the top, you can define the `Title` of the HTML page, background theme (more [options](https://revealjs.com/themes/)), slides transition (more [options](https://revealjs.com/transitions/)), horizontal slides separator (`---`), and vertical slides separator (`-v-`). To add speaker view notes, use the `Note:` in each slide. Please refer to the [template](https://github.com/howardhsumail/revealJS-Tutorial/blob/main/Template/template.md?plain=1) for additional syntax.
+Slides are written in markdown ([syntax](https://www.markdownguide.org/basic-syntax/)) with HTML ([syntax](https://www.w3schools.com/html/html5_syntax.asp)) formatting. At the top, you can define the `Title` of the HTML page, background theme ([options](https://revealjs.com/themes/)), slides transition ([options](https://revealjs.com/transitions/)), horizontal slides separator (`---`), and vertical slides separator (`-v-`). To add speaker view notes, use the `Note:` in each slide. Please refer to the [template](https://github.com/howardhsumail/revealJS-Tutorial/blob/main/Template/template.md?plain=1) for additional syntax.
 
 ---
 
