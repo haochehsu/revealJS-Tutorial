@@ -12,13 +12,13 @@ revealOptions:
 <!-- .slide: data-transition="zoom" -->
 ## Title of the Keynote
 
-<div style="margin-bottom:1cm;"></div>
+<div style="margin-bottom:2cm;"></div>
 
-<div style="font-size:33pt; padding-bottom:1.5cm">subtitle/organization</div>
+<div style="font-size:30pt; padding-bottom:1.5cm">organization</div>
 
-<div style="font-size:30pt; padding-bottom:1.5cm">date</div>
+<div style="font-size:25pt;">Your Name</div>
 
-Your Name
+<div style="font-size:20pt; padding-top:1.5cm">date</div>
 
 Note: put speaker notes for this slide here.
 
@@ -31,7 +31,7 @@ Note: put speaker notes for this slide here.
 - [Markdown source code of this template](https://github.com/howardhsumail/revealJS-Tutorial/blob/main/Template/template.md?plain=1)
 - [revealJS-Tutorial Github Repository](https://github.com/howardhsumail/revealJS-Tutorial.git)
 - [Economics Presentation Example](https://www.haochehsu.com/slides/revealJS/index.html)
-- Please [contact](mailto:howardhsumail@gmail.com) the [author](https://www.haochehsu.com/) for help, comments, bug reporting.
+- Please [contact](mailto:howardhsumail@gmail.com) the [author](https://www.haochehsu.com/) for help, comments, error reporting.
 
 </div>
 
@@ -58,6 +58,7 @@ Note: put speaker notes for this slide here.
 
 ---
 
+<!-- .slide: data-transition="convex" -->
 ## Unordered List
 
 <div class="content">
@@ -65,7 +66,7 @@ Note: put speaker notes for this slide here.
 - Item 1
 - Phasellus imperdiet quam ultricies, scelerisque sem lacinia, egestas libero. Praesent.
   - Item 2a
-    - Item 2b
+    - Item 2ai
 
 </div>
 
@@ -73,16 +74,17 @@ Note: put speaker notes for this slide here.
 
 ---
 
+<!-- .slide: data-transition="convex" -->
 ## Ordered List
 
 <div class="content">
 
 1. Item 1
 2. Item 2
-    - Item 3a
+    - Item 2a
 3. Morbi gravida, ligula non gravida sodales.
     - Item 3a
-      - Item 3b
+      - Item 3ai
 
 </div>
 
@@ -160,11 +162,11 @@ Fragment Effects: [LINK](https://revealjs.com/fragments/)
 </div>
 <div style="flex: 50%;">
 
-text <sub>SUBscript</sub>
+<span style="color: #23B034">Customized color</span> text
 
 text <sup>SUPscript</sup>
 
-<span style="color: #23B034">Customized color</span> text
+text <sub>SUBscript</sub>
 
 <span style="font-size: 50px">Customized size</span> text
 
@@ -232,6 +234,7 @@ or with HTML `<div style="margin-bottom:4cm;"></div>`.
 
 ---
 
+<!-- .slide: data-transition="concave" -->
 ## Hyperlink
 
 - External link: [www.haochehsu.com](https:www.haochehsu.com)
@@ -268,13 +271,14 @@ Sed eu nunc sed dolor fermentum efficitur et eu nisl. Nulla lacinia arcu nisi, e
 
 ---
 
+<!-- .slide: data-transition="page" -->
 ## Math
 
-<div style="font-size:24pt">
+<div style="font-size:23pt">
 
 Given $y$, $x$, $\Delta$, $\nu$, $\eta$, with the following matrices
 
-<div>
+<div style="font-size:23pt">
 $$\mathcal{L}=\begin{pmatrix}
 1 & 2 & 3 & 4 & 5 \\
 3 & 4 & 5 & 6 & 7
@@ -284,9 +288,9 @@ D&  E& F
 \end{vmatrix}$$
 </div>
 
-<div style="text-align:left;padding-left:2.5cm">Math alginment:</div>
+<div style="text-align:left;padding-left:2.5cm">Math alignment:</div>
 
-<div>
+<div style="font-size:23pt">
 $$\begin{align}
   y&=\underset{\pi}{\mathbb{E}}\Big(\beta x + \epsilon\Big)\neq\sum\limits_{i}\beta_i(\underbrace{\alpha+\xi}_{\text{variables}}) + \epsilon\\
   &\Longrightarrow \int_{0}^{10}r \left( \dfrac{r}{50} \right)dr\xrightarrow{\text{text here}}\dfrac{r^{3}}{150}\biggr\rvert^{10}_{0}, \forall x\in (a,b)
@@ -303,11 +307,15 @@ So from $\widehat{ABCD}$, $\widetilde{ABCD}$, $\widehat{ABCD}$, $\overrightarrow
 
 <div class="content">
 
+<br>
+
 #### Inline code
 
 `mylist = list(filter(lambda x: 'words' not in x, mylist))`
 
 ***
+
+<br>
 
 #### Block code
 
@@ -339,11 +347,13 @@ def __init__(self, input_size=1, hidden_size=256, output_size=1):
 
 ---
 
+<!-- .slide: data-transition="convex" -->
 ## Table
 
 <div class="content">
 
 HTML table generator: [LINK](https://www.tablesgenerator.com/html_tables)
+<br><br>
 
 <table class="w3-striped">
 <thead>
@@ -384,14 +394,15 @@ HTML table generator: [LINK](https://www.tablesgenerator.com/html_tables)
 ## Video
 
 <iframe width="840" height="560"
-src="https://www.youtube.com/embed/pKO9UjSeLew?autoplay=1&mute=1">
+src="https://www.youtube.com/embed/pKO9UjSeLew?autoplay=0&mute=1">
 </iframe>
 
 <span style="font-size: 20px">Source: <span style="font-style: italic">If Programming Was An Anime</span> ([Joma Tech](https://www.youtube.com/c/JomaOppa))</span>
 
 ---
 
-<!-- .slide: data-background="#8c4738" -->
+<!-- .slide: data-transition="zoom" -->
+<!-- .slide: data-background="#244A7C" -->
 ## Change Background Color
 
 ---
@@ -413,8 +424,8 @@ src="https://www.youtube.com/embed/pKO9UjSeLew?autoplay=1&mute=1">
 <!-- CSS -->
 <style>
 .content {
-  font-size:27pt !important; 
-  line-height:40pt !important;
+  font-size:26pt !important; 
+  line-height:42pt !important;
 }
 </style>
 <base target="_blank"/>
