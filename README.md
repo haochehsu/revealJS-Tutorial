@@ -24,7 +24,7 @@ export NVM_DIR="$HOME/.nvm"
 3. Install NodeJS
 
 ```shell
-nvm install v15
+nvm install v16
 ```
 
 4. Install `reveal-md`
