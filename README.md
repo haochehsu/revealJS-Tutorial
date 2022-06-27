@@ -38,7 +38,7 @@ npm install -g reveal-md
 #### Render HTML slides
 
 ```shell
-reveal-md yourSlides.md --static outputFolderName
+reveal-md yourSlides.md --highlight-theme default --static outputFolderName
 ```
 
 Drag the markdown (`.md`) file into Terminal to obtain file path. To convert the markdown template to HTML slides, [download](https://github.com/howardhsumail/revealJS-Tutorial/archive/refs/heads/main.zip) and unzip the repository. Then direct the workspace to the `Template` sub-folder: `cd <path to Template folder>`. Then the slides (`index.html` in the output folder) can be rendered by `reveal-md template.md --static output`.
