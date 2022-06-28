@@ -1,6 +1,6 @@
 # Reveal.js Tutorial
 
-This is a tutorial on utilizing the [reveal.js framework](https://revealjs.com/) with [markdown](https://www.markdownguide.org/) by using the [reveal-md](https://github.com/webpro/reveal-md) tool. Comparing to [Beamer](https://www.overleaf.com/learn/latex/Beamer) which creates PDF slides with TeX, reveal.js creates web-based slides (convertible to PDF) with Javascript + HTML + CSS. A comparison between the two is [here](https://www.maths.dur.ac.uk/users/s.m.fearn/blog/2020/revealjs/). So the workflow can be summarized as: edit markdown slides → convert to HTML slides.
+This is a tutorial on utilizing the [reveal.js framework](https://revealjs.com/) with [markdown](https://www.markdownguide.org/) by using the [reveal-md](https://github.com/webpro/reveal-md) tool. Comparing to [Beamer](https://www.overleaf.com/learn/latex/Beamer) which creates PDF slides with TeX, reveal.js creates web-based slides (convertible to PDF) with Javascript + HTML + CSS. A comparison between the two is [here](https://www.maths.dur.ac.uk/users/s.m.fearn/blog/2020/revealjs/). The workflow can be summarized as: edit markdown slides → convert to HTML slides.
 
 🚀 Template is [here](https://www.haochehsu.com/slides/template/index.html). The template markdown file is [here](https://github.com/howardhsumail/revealJS-Tutorial/blob/main/Template/template.md?plain=1).
 
@@ -38,10 +38,18 @@ npm install -g reveal-md
 #### Render HTML slides
 
 ```shell
-reveal-md yourSlides.md --highlight-theme default --static outputFolderName
+reveal-md yourSlides.md --highlight-theme github --static outputFolderName
 ```
 
-Drag the markdown (`.md`) file into Terminal to obtain file path. To convert the markdown template to HTML slides, [download](https://github.com/howardhsumail/revealJS-Tutorial/archive/refs/heads/main.zip) and unzip the repository. Then direct the workspace to the `Template` sub-folder: `cd <path to Template folder>`. Then the slides (`index.html` in the output folder) can be rendered by `reveal-md template.md --static output`.
+To render the template, [download](https://github.com/howardhsumail/revealJS-Tutorial/archive/refs/heads/main.zip) and unzip the repository. Then direct the workspace to the `Template` folder: `cd <path to Template folder>`. The slides (`index.html` in the output folder) can be rendered by `reveal-md template.md --highlight-theme default output`.
+
+- Theme
+
+  The [choice of themes](https://github.com/hakimel/reveal.js/tree/master/css/theme/source) is defined at line 6 in the markdown file.
+
+- Highlight Theme
+
+  The [choice of highligh-themes](https://github.com/highlightjs/highlight.js/tree/main/src/styles) is defined during rendering.
 
 #### Live view editing
 
