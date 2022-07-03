@@ -32,7 +32,18 @@ nvm install v16
 ```shell
 npm install -g reveal-md
 ```
+  
+  - Update
 
+    ```shell
+    npm i -g reveal-md
+    ```
+  - Check version
+  
+    ```shell
+    npm view reveal-md version
+    ```
+    
 ### Usage
 
 #### Render HTML slides
