@@ -70,6 +70,10 @@ reveal-md yourSlides.md -w
 
 The terminal will return the following message: `Reveal-server started at http://localhost:xxxx`. If the browser does not pop up, paste `http://localhost:xxxx` into the browser to initiate live view.
 
+#### Print PDF slides
+
+Start live viewing and change the URL from `http://localhost:xxxx/<slides>.md#/` to `http://localhost:xxxx/<slides>.md?print-pdf`. Then print the PDF from browser.
+
 ### Shortcuts
 
 To control the presentation, press `Shift` + `?` to see keyboard shortcuts. This includes Speaker notes view (`S`), First slide (`Shift` + `←`), Last slide (`Shift` + `→`), Overview (`ESC`), Fullscreen (`F`), and Pause (`B`).
