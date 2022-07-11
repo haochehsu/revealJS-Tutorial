@@ -3,7 +3,7 @@ title: Keynote
 separator: ---
 verticalSeparator: -v-
 # Themes: beige/black/blood/league/moon/night/serif/simple/sky/solarized/white
-theme: white 
+theme: white
 # Transitions: 'concave/convex/cube/fade/none/page/slide/zoom'
 revealOptions:
     transition: slide
@@ -14,9 +14,9 @@ revealOptions:
 
 <div style="margin-bottom:2cm;"></div>
 
-<div style="font-size:30pt; padding-bottom:1.5cm">organization</div>
+<div style="font-size:30pt; padding-bottom:1.5cm">Your Name</div>
 
-<div style="font-size:25pt;">Your Name</div>
+<div style="font-size:22pt;">organization</div>
 
 <div style="font-size:20pt; padding-top:1.5cm">date</div>
 
@@ -24,7 +24,7 @@ Note: put speaker notes for this slide here.
 
 ---
 
-## About this template
+### About this template
 
 <div class="content">
 
@@ -40,14 +40,14 @@ Note: put speaker notes for this slide here.
 ---
 
 <!-- .slide: data-transition="slide" -->
-# Single line title 
+# Single line title
 
 <span style="font-size: 30px">continue from here, you can go RIGHT ($\rightarrow$) or DOWN ($\downarrow$)</span>
 
 -v-
 
-### Vertical Page Subtitle
-
+### Vertical Page Ttitle
+<div style="font-size:20pt;margin-top:-20px;margin-bottom:30px;text-transform:uppercase;"><b>Subtitle here</b></div>
 <div class="content">
 
 Aenean quam felis, tristique vel iaculis sollicitudin, iaculis nec sem. Nulla venenatis sem lorem, at mollis nulla semper vel. Morbi.
@@ -97,16 +97,28 @@ Note: put speaker notes for this slide here.
 
 -v-
 
-### The following items <div style="margin-bottom:-0.7cm;"></div>
-### will appear in customized order
+### The following items <div style="margin-bottom:-0.5cm;"></div>
+#### will appear in customized order
 
 <div class="content">
 
-- <!-- .element: class="fragment" data-fragment-index="1" --> This item appears <b>first</b>. 
-  - <!-- .element: class="fragment" data-fragment-index="1" --> Vivamus sollicitudin purus eget lobortis porttitor. 
+- <!-- .element: class="fragment" data-fragment-index="1" --> This item appears <b>first</b>.
+  - <!-- .element: class="fragment" data-fragment-index="1" --> Vivamus sollicitudin purus eget lobortis porttitor.
 - <!-- .element: class="fragment" data-fragment-index="3" --> This item appears <b>third</b>.
 - <!-- .element: class="fragment" data-fragment-index="2" -->This item appears <b>second</b>.
 
+</div>
+
+-v-
+
+### The following items <div style="margin-bottom:-0.5cm;"></div>
+#### will appear in customized order but at the same place
+
+<div class="r-stack">
+	<p class="fragment fade-in-then-out">One</p>
+	<p class="fragment fade-in-then-out">Two</p>
+	<p class="fragment fade-in-then-out">Three</p>
+	<p class="fragment fade-in-then-out">Four</p>
 </div>
 
 -v-
@@ -123,7 +135,7 @@ Note: put speaker notes for this slide here.
 <p class="fragment fade-up">Slide up while fading in</p>
 <p class="fragment grow">Growing text</p>
 
-*** 
+***
 <br>
 
 Fragment Effects: [LINK](https://revealjs.com/fragments/)
@@ -274,11 +286,11 @@ Sed eu nunc sed dolor fermentum efficitur et eu nisl. Nulla lacinia arcu nisi, e
 <!-- .slide: data-transition="page" -->
 ## Math
 
-<div style="font-size:23pt">
+<div class="content">
 
 Given $y$, $x$, $\Delta$, $\nu$, $\eta$, with the following matrices
 
-<div style="font-size:23pt">
+<div style="font-size:18pt">
 $$\mathcal{L}=\begin{pmatrix}
 1 & 2 & 3 & 4 & 5 \\
 3 & 4 & 5 & 6 & 7
@@ -290,7 +302,7 @@ D&  E& F
 
 <div style="text-align:left;padding-left:2.5cm">Math alignment:</div>
 
-<div style="font-size:23pt">
+<div style="font-size:18pt">
 $$\begin{align}
   y&=\underset{\pi}{\mathbb{E}}\Big(\beta x + \epsilon\Big)\neq\sum\limits_{i}\beta_i(\underbrace{\alpha+\xi}_{\text{variables}}) + \epsilon\\
   &\Longrightarrow \int_{0}^{10}r \left( \dfrac{r}{50} \right)dr\xrightarrow{\text{text here}}\dfrac{r^{3}}{150}\biggr\rvert^{10}_{0}, \forall x\in (a,b)
@@ -298,7 +310,7 @@ $$\begin{align}
 </div>
 
 So from $\widehat{ABCD}$, $\widetilde{ABCD}$, $\widehat{ABCD}$, $\overrightarrow{ABCD}$, and $\overline{ABCD}$, we get the desire $\underline{\text{result}}$.
-  
+
 </div>
 
 ---
@@ -317,7 +329,7 @@ So from $\widehat{ABCD}$, $\widetilde{ABCD}$, $\widehat{ABCD}$, $\overrightarrow
 
 <br>
 
-#### Block code
+#### <div style="margin-top:-50px">Block code</div>
 
 ```python
 # Long short-term memory (LSTM)
@@ -342,7 +354,7 @@ def __init__(self, input_size=1, hidden_size=256, output_size=1):
 ## Image
 
 <span class="fragment fade-in-then-out" >
-  <img style="width: 70%; border-radius: 5px; box-shadow: 0px 0px 30px 3px #888888;" src="https://www.haochehsu.com/other/volcano.jpg" />
+  <img style="width: 53%; border-radius: 5px; box-shadow: 0px 0px 30px 3px #888888;" src="https://www.haochehsu.com/other/volcano.jpg" />
 </span>
 
 ---
@@ -424,8 +436,9 @@ src="https://www.youtube.com/embed/pKO9UjSeLew?autoplay=0&mute=1">
 <!-- CSS -->
 <style>
 .content {
-  font-size:26pt !important; 
-  line-height:42pt !important;
+  padding: 0% 10% 0% 10%;
+  font-size:23pt !important;
+  line-height:35pt
 }
 </style>
 <base target="_blank"/>
